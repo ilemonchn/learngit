@@ -9,6 +9,7 @@ public class Lemon {
     private String hobbie;
     private Integer sex;
     private String status;
+    private String chg20;
 
     public String getHobbie() {
         return hobbie;
