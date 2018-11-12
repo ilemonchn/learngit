@@ -10,6 +10,7 @@ public class Lemon {
     private Integer sex;
     private String status;
     private String chg20;
+    private String chg10;
 
     public String getHobbie() {
         return hobbie;
