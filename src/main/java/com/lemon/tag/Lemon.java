@@ -6,6 +6,15 @@ package com.lemon.tag;
 public class Lemon {
     private String name;
     private Integer age;
+    private String hobbie;
+
+    public String getHobbie() {
+        return hobbie;
+    }
+
+    public void setHobbie(String hobbie) {
+        this.hobbie = hobbie;
+    }
 
     public String getName() {
         return name;
