@@ -6,6 +6,15 @@ package com.lemon.tag;
 public class Lemon {
     private String name;
     private Integer age;
+    private Integer sex;
+
+    public Integer getSex() {
+        return sex;
+    }
+
+    public void setSex(Integer sex) {
+        this.sex = sex;
+    }
 
     public String getName() {
         return name;
