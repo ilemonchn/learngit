@@ -7,6 +7,7 @@ public class Lemon {
     private String name;
     private Integer age;
     private String hobbie;
+    private Integer sex;
 
     public String getHobbie() {
         return hobbie;
@@ -14,6 +15,15 @@ public class Lemon {
 
     public void setHobbie(String hobbie) {
         this.hobbie = hobbie;
+    }
+
+
+    public Integer getSex() {
+        return sex;
+    }
+
+    public void setSex(Integer sex) {
+        this.sex = sex;
     }
 
     public String getName() {
