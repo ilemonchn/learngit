@@ -8,6 +8,7 @@ public class Lemon {
     private Integer age;
     private String hobbie;
     private Integer sex;
+    private String status;
 
     public String getHobbie() {
         return hobbie;
@@ -24,6 +25,16 @@ public class Lemon {
 
     public void setSex(Integer sex) {
         this.sex = sex;
+    }
+
+
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getName() {
